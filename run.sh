@@ -25,6 +25,8 @@ download() {
     done
 }
 
+cd ~/bilimp4downloader && git pull
+
 # 检测是否在Termux环境中
 if [ -d "/data/data/com.termux/files" ]; then
     echo "检测到Termux环境"
